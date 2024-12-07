@@ -218,5 +218,8 @@ def DataProcessing():
 
     except Exception as e:
         print(f"ip被强了，请开代理\n")
-DataProcessing()
+
+
+if __name__ == '__main__':
+    DataProcessing()
 # Scramble()
