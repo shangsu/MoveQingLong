@@ -67,6 +67,16 @@ def schedule_purchase(headers, data, phone):
             break  # 成功后跳出重试循环
 
 
+def schedule_purchase2(headers, dataList, phone):
+    for data in dataList:
+        respond = send_request("post", url=volumeUrl, headers=headers, data=data)
+        if respond.status_code != 200:
+            print("网络被墙，请更换网络\n")
+        result = respond.json()
+        if result['status'] == 'ERROR':
+            print(f"{phone}领取失败: {result['errorMsg']}")
+
+
 def getDataAndHeaders(auth_phone_number, product_id, specifications_id, voucher_code, authorization,
                       product_type="URL_PRODUCT", food_zone_product_type="PLUS_FOOD", brand_id="1691428476935487491",
                       mobile_area_type="GUI_ZHOU_SCHOOL"):
@@ -149,15 +159,18 @@ def getProductInfo(brandId="1691428476935487491", mobileAreaType="GUI_ZHOU_SCHOO
     return aesDecrypt(send_request('post', pageByBrandUrl, data=data).json()["resEnc"])
 
 
-def Scramble():
+def Scramble(flag=1):
     try:
         for cookie in cookies:
             phone = cookie.split("#")[0]
             config.read(filePath)
             headerList = ast.literal_eval((config.get(phone, 'header_list')))
             dataList = ast.literal_eval(config.get(phone, 'data_list'))
-            for data in dataList:
-                threading.Thread(target=schedule_purchase, args=(headerList[0], data, phone)).start()
+            if flag == 1:
+                for data in dataList:
+                    threading.Thread(target=schedule_purchase, args=(headerList[0], data, phone)).start()
+            else:
+                threading.Thread(target=schedule_purchase2, args=(headerList[0], dataList, phone)).start()
     except Exception as e:
         print(f"ip被强了，请开代理\n")
 
