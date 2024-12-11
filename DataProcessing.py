@@ -13,6 +13,7 @@ from cryptography.hazmat.primitives.ciphers import algorithms, modes
 from cryptography.hazmat.primitives.padding import PKCS7
 from cryptography.hazmat.backends import default_backend
 import re
+from fake_useragent import UserAgent
 import base64
 
 filePath = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data.ini")
@@ -67,14 +68,20 @@ def schedule_purchase(headers, data, phone):
             break  # 成功后跳出重试循环
 
 
-def schedule_purchase2(headers, dataList, phone):
-    for data in dataList:
-        respond = send_request("post", url=volumeUrl, headers=headers, data=data)
+def schedule_purchase2(dataList, headerList, phone):
+    for data, head in zip(dataList, headerList):
+        respond = send_request("post", url=volumeUrl, headers=head, data=data)
         if respond.status_code != 200:
             print("网络被墙，请更换网络\n")
         result = respond.json()
         if result['status'] == 'ERROR':
             print(f"{phone}领取失败: {result['errorMsg']}")
+
+
+def get_random_mobile_user_agent():
+    ua = UserAgent()
+    # 指定移动端 User-Agent 类型
+    return ua.random
 
 
 def getDataAndHeaders(auth_phone_number, product_id, specifications_id, voucher_code, authorization,
@@ -92,7 +99,8 @@ def getDataAndHeaders(auth_phone_number, product_id, specifications_id, voucher_
         "sec-fetch-dest": "empty",
         "sec-fetch-mode": "cors",
         "sec-fetch-site": "same-site",
-        "user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3 Mobile/15E148 Safari/604.1"
+        "user-agent": get_random_mobile_user_agent()
+        # "user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3 Mobile/15E148 Safari/604.1"
     }
     data = {
         "orderInfoAddParam": {"contactPhone": auth_phone_number, "contactName": auth_phone_number, "products": [{
@@ -153,10 +161,13 @@ def aesDecrypt(plainText):
     return plainText.decode('utf-8')
 
 
-def getProductInfo(brandId="1691428476935487491", mobileAreaType="GUI_ZHOU_SCHOOL"):
+def getProductInfo(Authorization, brandId="1691428476935487491", mobileAreaType="GUI_ZHOU_SCHOOL"):
     data = {"brandId": brandId, "mobileAreaType": mobileAreaType}
+    headers = {
+        'Authorization': Authorization,
+    }
     # print(send_request('post', pageByBrandUrl, data=data).json())
-    return aesDecrypt(send_request('post', pageByBrandUrl, data=data).json()["resEnc"])
+    return send_request('post', pageByBrandUrl, headers=headers, data=data)
 
 
 def Scramble(flag=1):
@@ -167,10 +178,10 @@ def Scramble(flag=1):
             headerList = ast.literal_eval((config.get(phone, 'header_list')))
             dataList = ast.literal_eval(config.get(phone, 'data_list'))
             if flag == 1:
-                for data in dataList:
-                    threading.Thread(target=schedule_purchase, args=(headerList[0], data, phone)).start()
+                for data, head in zip(dataList, headerList):
+                    threading.Thread(target=schedule_purchase, args=(head, data, phone)).start()
             else:
-                threading.Thread(target=schedule_purchase2, args=(headerList[0], dataList, phone)).start()
+                threading.Thread(target=schedule_purchase2, args=(dataList, headerList, phone)).start()
     except Exception as e:
         print(f"ip被强了，请开代理\n")
 
@@ -183,7 +194,7 @@ def DataProcessing():
             five = ""
             ten = ""
             twenty = ""
-            result = json.loads(getProductInfo())
+            result = getProductInfo(cookie.split("#")[1]).json()
             if "#" not in cookie:
                 pass
             for item in result["data"]["items"][0]["productList"]:
