@@ -1,0 +1,50 @@
+# macOS 系统生成的文件
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 图标文件必须以两个 \r 结尾
+Icon\r\r
+
+# 缩略图
+._*
+
+# 可能出现在卷根目录下的文件
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# 可能在远程 AFP 共享上创建的目录
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# JetBrains IDE（如 IntelliJ IDEA、PyCharm 等）
+.idea/
+*.iml
+*.iws
+.idea_modules/
+atlassian-ide-plugin.xml
+atlassian-ide-plugin.log
+# IntelliJ < 2020.3 版本不提供设置输出目录的方法
+out/
+
+# Visual Studio Code 配置
+.vscode/
+.history/
+*.code-workspace
+
+# Vim 编辑器
+*.swp
+*.swo
+*.swn
+
+# Emacs 编辑器
+*~
+\
