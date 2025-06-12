@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6908b0d4-e2cb-48d6-9e46-debd3ec2cff9" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ljj.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/td.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Gherkin feature file" />
+        <option value="Python Script" />
+        <option value="git忽略" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2pnR3yfdwoycJs01TAEJXSxvPGO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.DataProcessing (1).executor": "Run",
+    "Python.DataProcessing (2).executor": "Run",
+    "Python.DataProcessing (3).executor": "Run",
+    "Python.DataProcessing.executor": "Run",
+    "Python.Scramble (1).executor": "Run",
+    "Python.Scramble.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.setup.executor": "Run",
+    "Python.sign.executor": "Run",
+    "Python.td.executor": "Run",
+    "Python.test.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore_missing_gitignore": "true",
+    "last_opened_file_path": "/Users/shangsu/PycharmProjects/Move/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/qinglong/pyd/src" />
+      <recent name="$PROJECT_DIR$/qinglong/pyd" />
+      <recent name="$PROJECT_DIR$/dist/src" />
+      <recent name="$PROJECT_DIR$/qinglong/test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/qinglong/pyd" />
+      <recent name="$PROJECT_DIR$/qinglong/test" />
+      <recent name="$PROJECT_DIR$/qinglong/pyd/yd" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.ljj">
+    <configuration name="DataProcessing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Move" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="ydcookie" value="18885998020#eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjb2RlIjoie1widXNlclNvdXJjZVwiOlwiRVhUXCIsXCJpZFwiOjE4MjMxODMwMjgxNzE3NDMyMzMsXCJhY2NvdW50XCI6XCIxODg4NTk5ODAyMFwiLFwibmFtZVwiOlwiMTg4ODU5OTgwMjBcIixcInVzZXJDb2RlXCI6XCIxODIzMTgzMDI4MTcxNzQzMjM0XCIsXCJuaWNrbmFtZVwiOlwiMTg4ODU5OTgwMjBcIixcImJ1c2luZXNzSWRcIjowLFwic3RvcmVJZFwiOjAsXCJhdmF0YXJcIjpcIlwiLFwiZ2VuZGVyXCI6XCJOT05FXCIsXCJzdGF0dXNcIjpcIk5PUk1BTFwiLFwibG9naW5UaW1lXCI6XCIyMDI0LTA4LTEzIDEwOjIxOjE3XCIsXCJjcmVhdGVUaW1lXCI6XCIyMDI0LTA4LTEzIDEwOjIxOjE3XCIsXCJjbGllbnRJcFwiOlwiMTIwLjI0Ni4yOS4xMDJcIixcInZlcmlmaWNhdGlvbklwXCI6dHJ1ZSxcInZlcnNpb25cIjpcIlYxLjBcIixcInVzZXJUeXBlXCI6XCJDVVNUT01FUlwiLFwidGFsZW50TGV2ZWxcIjpcIk5PTl9UQUxFTlRcIixcImlzU3Vic2NyaWJlXCI6ZmFsc2UsXCJzZXNzaW9uVXNlclwiOntcInZlcnNpb25cIjpcIlYxLjBcIixcInN0YXR1c1wiOlwiTk9STUFMXCIsXCJmaW5hbE5hbWVcIjpcIjE4ODg1OTk4MDIwXCIsXCJwaG9uZU51bWJlclwiOlwiMTg4ODU5OTgwMjBcIixcImdlbmRlclwiOlwiTk9ORVwiLFwiYnVzaW5lc3NJZFwiOjAsXCJ1c2VyVHlwZVwiOlwiQ1VTVE9NRVJcIixcInN0b3JlSWRcIjowLFwidGFsZW50TGV2ZWxcIjpcIk5PTl9UQUxFTlRcIixcInVzZXJDb2RlXCI6XCIxODIzMTgzMDI4MTcxNzQzMjM0XCIsXCJtb2JpbGVcIjpcIjE4ODg1OTk4MDIwXCIsXCJjbGllbnRJcFwiOlwiMTIwLjI0Ni4yOS4xMDJcIixcInVzZXJTb3VyY2VcIjpcIkVYVFwiLFwibmlja25hbWVcIjpcIjE4ODg1OTk4MDIwXCIsXCJsb2dpblRpbWVcIjpcIjIwMjQtMDgtMTMgMTA6MjE6MTdcIixcImlzU3Vic2NyaWJlXCI6ZmFsc2UsXCJhdmF0YXJcIjpcIlwiLFwic2hvd0ZvbGxvd1wiOmZhbHNlLFwibmFtZVwiOlwiMTg4ODU5OTgwMjBcIixcImlkXCI6MTgyMzE4MzAyODE3MTc0MzIzM319In0.F8HVr2zzq4HdIZHrnv2QmkI_ESJwC4jW_AQqTW2w2u8&amp;17585161556#eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjb2RlIjoie1widXNlclNvdXJjZVwiOlwiRVhUXCIsXCJpZFwiOjE4MzQ5MDQ5OTMxNTI5NTg0NjcsXCJhY2NvdW50XCI6XCIxNzU4NTE2MTU1NlwiLFwibmFtZVwiOlwiMTc1ODUxNjE1NTZcIixcInVzZXJDb2RlXCI6XCIxODM0OTA0OTkzMTUyOTU4NDY4XCIsXCJuaWNrbmFtZVwiOlwiMTc1ODUxNjE1NTZcIixcImJ1c2luZXNzSWRcIjowLFwic3RvcmVJZFwiOjAsXCJhdmF0YXJcIjpcIlwiLFwiZ2VuZGVyXCI6XCJOT05FXCIsXCJzdGF0dXNcIjpcIk5PUk1BTFwiLFwibG9naW5UaW1lXCI6XCIyMDI0LTA5LTE0IDE4OjQwOjExXCIsXCJjcmVhdGVUaW1lXCI6XCIyMDI0LTA5LTE0IDE4OjQwOjExXCIsXCJjbGllbnRJcFwiOlwiMjIzLjE2MC4yMzAuMTgxXCIsXCJ2ZXJpZmljYXRpb25JcFwiOnRydWUsXCJ2ZXJzaW9uXCI6XCJWMS4wXCIsXCJ1c2VyVHlwZVwiOlwiQ1VTVE9NRVJcIixcInRhbGVudExldmVsXCI6XCJOT05fVEFMRU5UXCIsXCJpc1N1YnNjcmliZVwiOmZhbHNlLFwic2Vzc2lvblVzZXJcIjp7XCJzdGF0dXNcIjpcIk5PUk1BTFwiLFwidmVyc2lvblwiOlwiVjEuMFwiLFwidGFsZW50TGV2ZWxcIjpcIk5PTl9UQUxFTlRcIixcImZpbmFsTmFtZVwiOlwiMTc1ODUxNjE1NTZcIixcImNsaWVudElwXCI6XCIyMjMuMTYwLjIzMC4xODFcIixcIm1vYmlsZVwiOlwiMTc1ODUxNjE1NTZcIixcInBob25lTnVtYmVyXCI6XCIxNzU4NTE2MTU1NlwiLFwidXNlckNvZGVcIjpcIjE4MzQ5MDQ5OTMxNTI5NTg0NjhcIixcImJ1c2luZXNzSWRcIjowLFwidXNlclR5cGVcIjpcIkNVU1RPTUVSXCIsXCJzdG9yZUlkXCI6MCxcInVzZXJTb3VyY2VcIjpcIkVYVFwiLFwiZ2VuZGVyXCI6XCJOT05FXCIsXCJuaWNrbmFtZVwiOlwiMTc1ODUxNjE1NTZcIixcImxvZ2luVGltZVwiOlwiMjAyNC0wOS0xNCAxODo0MDoxMVwiLFwiaXNTdWJzY3JpYmVcIjpmYWxzZSxcImF2YXRhclwiOlwiXCIsXCJzaG93Rm9sbG93XCI6ZmFsc2UsXCJuYW1lXCI6XCIxNzU4NTE2MTU1NlwiLFwiaWRcIjoxODM0OTA0OTkzMTUyOTU4NDY3fX0ifQ._KgNLYbKn26X7Aic5Eusw6xr0UQhzQOXXEkLY5WpUN8" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qinglong/pyd" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qinglong/pyd/DataProcessing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Move" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="ydcookie" value="18885998020#eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjb2RlIjoie1widXNlclNvdXJjZVwiOlwiRVhUXCIsXCJpZFwiOjE5MTY3NDgwODE0NTY3NTA1OTMsXCJhY2NvdW50XCI6XCIxODg4NTk5ODAyMFwiLFwibmFtZVwiOlwiMTg4ODU5OTgwMjBcIixcInVzZXJDb2RlXCI6XCIxOTE2NzQ4MDgxNDU2NzUwNTk0XCIsXCJuaWNrbmFtZVwiOlwiMTg4ODU5OTgwMjBcIixcImJ1c2luZXNzSWRcIjowLFwic3RvcmVJZFwiOjAsXCJhdmF0YXJcIjpcIlwiLFwiZ2VuZGVyXCI6XCJOT05FXCIsXCJzdGF0dXNcIjpcIk5PUk1BTFwiLFwibG9naW5UaW1lXCI6XCIyMDI1LTA0LTI4IDE0OjU1OjI0XCIsXCJjcmVhdGVUaW1lXCI6XCIyMDI1LTA0LTI4IDE0OjU1OjI0XCIsXCJjbGllbnRJcFwiOlwiMjE5LjE0My4xMjguOVwiLFwidmVyaWZpY2F0aW9uSXBcIjp0cnVlLFwidmVyc2lvblwiOlwiVjEuMFwiLFwidXNlclR5cGVcIjpcIkNVU1RPTUVSXCIsXCJ0YWxlbnRMZXZlbFwiOlwiTk9OX1RBTEVOVFwiLFwiaXNTdWJzY3JpYmVcIjpmYWxzZSxcInNlc3Npb25Vc2VyXCI6e1wibmlja25hbWVcIjpcIjE4ODg1OTk4MDIwXCIsXCJpc1N1YnNjcmliZVwiOmZhbHNlLFwiZ2VuZGVyXCI6XCJOT05FXCIsXCJsb2dpblRpbWVcIjpcIjIwMjUtMDQtMjggMTQ6NTU6MjRcIixcImF2YXRhclwiOlwiXCIsXCJzaG93Rm9sbG93XCI6ZmFsc2UsXCJzdGF0dXNcIjpcIk5PUk1BTFwiLFwidmVyc2lvblwiOlwiVjEuMFwiLFwiY2xpZW50SXBcIjpcIjIxOS4xNDMuMTI4LjlcIixcIm1vYmlsZVwiOlwiMTg4ODU5OTgwMjBcIixcInBob25lTnVtYmVyXCI6XCIxODg4NTk5ODAyMFwiLFwiYnVzaW5lc3NJZFwiOjAsXCJ0YWxlbnRMZXZlbFwiOlwiTk9OX1RBTEVOVFwiLFwidXNlclR5cGVcIjpcIkNVU1RPTUVSXCIsXCJzdG9yZUlkXCI6MCxcInVzZXJTb3VyY2VcIjpcIkVYVFwiLFwidXNlckNvZGVcIjpcIjE5MTY3NDgwODE0NTY3NTA1OTRcIixcImZpbmFsTmFtZVwiOlwiMTg4ODU5OTgwMjBcIixcIm5hbWVcIjpcIjE4ODg1OTk4MDIwXCIsXCJpZFwiOjE5MTY3NDgwODE0NTY3NTA1OTN9fSIsImp3dERDIjoiQ1M5cjJ2QTYifQ.8LVnmSYz1OjEZecv9j6TISB6V46KVlvSqlM2j1qWXWM" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.9 (Move)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ljj" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Move" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="ydcookie" value="18885998020#eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjb2RlIjoie1widXNlclNvdXJjZVwiOlwiRVhUXCIsXCJpZFwiOjE5MTY3NDgwODE0NTY3NTA1OTMsXCJhY2NvdW50XCI6XCIxODg4NTk5ODAyMFwiLFwibmFtZVwiOlwiMTg4ODU5OTgwMjBcIixcInVzZXJDb2RlXCI6XCIxOTE2NzQ4MDgxNDU2NzUwNTk0XCIsXCJuaWNrbmFtZVwiOlwiMTg4ODU5OTgwMjBcIixcImJ1c2luZXNzSWRcIjowLFwic3RvcmVJZFwiOjAsXCJhdmF0YXJcIjpcIlwiLFwiZ2VuZGVyXCI6XCJOT05FXCIsXCJzdGF0dXNcIjpcIk5PUk1BTFwiLFwibG9naW5UaW1lXCI6XCIyMDI1LTA0LTI4IDE0OjU1OjI0XCIsXCJjcmVhdGVUaW1lXCI6XCIyMDI1LTA0LTI4IDE0OjU1OjI0XCIsXCJjbGllbnRJcFwiOlwiMjE5LjE0My4xMjguOVwiLFwidmVyaWZpY2F0aW9uSXBcIjp0cnVlLFwidmVyc2lvblwiOlwiVjEuMFwiLFwidXNlclR5cGVcIjpcIkNVU1RPTUVSXCIsXCJ0YWxlbnRMZXZlbFwiOlwiTk9OX1RBTEVOVFwiLFwiaXNTdWJzY3JpYmVcIjpmYWxzZSxcInNlc3Npb25Vc2VyXCI6e1wibmlja25hbWVcIjpcIjE4ODg1OTk4MDIwXCIsXCJpc1N1YnNjcmliZVwiOmZhbHNlLFwiZ2VuZGVyXCI6XCJOT05FXCIsXCJsb2dpblRpbWVcIjpcIjIwMjUtMDQtMjggMTQ6NTU6MjRcIixcImF2YXRhclwiOlwiXCIsXCJzaG93Rm9sbG93XCI6ZmFsc2UsXCJzdGF0dXNcIjpcIk5PUk1BTFwiLFwidmVyc2lvblwiOlwiVjEuMFwiLFwiY2xpZW50SXBcIjpcIjIxOS4xNDMuMTI4LjlcIixcIm1vYmlsZVwiOlwiMTg4ODU5OTgwMjBcIixcInBob25lTnVtYmVyXCI6XCIxODg4NTk5ODAyMFwiLFwiYnVzaW5lc3NJZFwiOjAsXCJ0YWxlbnRMZXZlbFwiOlwiTk9OX1RBTEVOVFwiLFwidXNlclR5cGVcIjpcIkNVU1RPTUVSXCIsXCJzdG9yZUlkXCI6MCxcInVzZXJTb3VyY2VcIjpcIkVYVFwiLFwidXNlckNvZGVcIjpcIjE5MTY3NDgwODE0NTY3NTA1OTRcIixcImZpbmFsTmFtZVwiOlwiMTg4ODU5OTgwMjBcIixcIm5hbWVcIjpcIjE4ODg1OTk4MDIwXCIsXCJpZFwiOjE5MTY3NDgwODE0NTY3NTA1OTN9fSIsImp3dERDIjoiQ1M5cjJ2QTYifQ.8LVnmSYz1OjEZecv9j6TISB6V46KVlvSqlM2j1qWXWM" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.9 (Move)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ljj.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="td" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Move" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="ydcookie" value="18885998020#eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjb2RlIjoie1widXNlclNvdXJjZVwiOlwiRVhUXCIsXCJpZFwiOjE5MTY3NDgwODE0NTY3NTA1OTMsXCJhY2NvdW50XCI6XCIxODg4NTk5ODAyMFwiLFwibmFtZVwiOlwiMTg4ODU5OTgwMjBcIixcInVzZXJDb2RlXCI6XCIxOTE2NzQ4MDgxNDU2NzUwNTk0XCIsXCJuaWNrbmFtZVwiOlwiMTg4ODU5OTgwMjBcIixcImJ1c2luZXNzSWRcIjowLFwic3RvcmVJZFwiOjAsXCJhdmF0YXJcIjpcIlwiLFwiZ2VuZGVyXCI6XCJOT05FXCIsXCJzdGF0dXNcIjpcIk5PUk1BTFwiLFwibG9naW5UaW1lXCI6XCIyMDI1LTA0LTI4IDE0OjU1OjI0XCIsXCJjcmVhdGVUaW1lXCI6XCIyMDI1LTA0LTI4IDE0OjU1OjI0XCIsXCJjbGllbnRJcFwiOlwiMjE5LjE0My4xMjguOVwiLFwidmVyaWZpY2F0aW9uSXBcIjp0cnVlLFwidmVyc2lvblwiOlwiVjEuMFwiLFwidXNlclR5cGVcIjpcIkNVU1RPTUVSXCIsXCJ0YWxlbnRMZXZlbFwiOlwiTk9OX1RBTEVOVFwiLFwiaXNTdWJzY3JpYmVcIjpmYWxzZSxcInNlc3Npb25Vc2VyXCI6e1wibmlja25hbWVcIjpcIjE4ODg1OTk4MDIwXCIsXCJpc1N1YnNjcmliZVwiOmZhbHNlLFwiZ2VuZGVyXCI6XCJOT05FXCIsXCJsb2dpblRpbWVcIjpcIjIwMjUtMDQtMjggMTQ6NTU6MjRcIixcImF2YXRhclwiOlwiXCIsXCJzaG93Rm9sbG93XCI6ZmFsc2UsXCJzdGF0dXNcIjpcIk5PUk1BTFwiLFwidmVyc2lvblwiOlwiVjEuMFwiLFwiY2xpZW50SXBcIjpcIjIxOS4xNDMuMTI4LjlcIixcIm1vYmlsZVwiOlwiMTg4ODU5OTgwMjBcIixcInBob25lTnVtYmVyXCI6XCIxODg4NTk5ODAyMFwiLFwiYnVzaW5lc3NJZFwiOjAsXCJ0YWxlbnRMZXZlbFwiOlwiTk9OX1RBTEVOVFwiLFwidXNlclR5cGVcIjpcIkNVU1RPTUVSXCIsXCJzdG9yZUlkXCI6MCxcInVzZXJTb3VyY2VcIjpcIkVYVFwiLFwidXNlckNvZGVcIjpcIjE5MTY3NDgwODE0NTY3NTA1OTRcIixcImZpbmFsTmFtZVwiOlwiMTg4ODU5OTgwMjBcIixcIm5hbWVcIjpcIjE4ODg1OTk4MDIwXCIsXCJpZFwiOjE5MTY3NDgwODE0NTY3NTA1OTN9fSIsImp3dERDIjoiQ1M5cjJ2QTYifQ.8LVnmSYz1OjEZecv9j6TISB6V46KVlvSqlM2j1qWXWM" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.9 (Move)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/td.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.ljj" />
+        <item itemvalue="Python.td" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-5a2391486177-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13763.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="6908b0d4-e2cb-48d6-9e46-debd3ec2cff9" name="更改" comment="" />
+      <created>1733399658015</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733399658015</updated>
+      <workItem from="1733399660450" duration="7978000" />
+      <workItem from="1733566662032" duration="4901000" />
+      <workItem from="1734054300482" duration="5385000" />
+      <workItem from="1734263958587" duration="288000" />
+      <workItem from="1734264347021" duration="617000" />
+      <workItem from="1736391125958" duration="2035000" />
+      <workItem from="1737788032590" duration="2000" />
+      <workItem from="1738746599499" duration="6000" />
+      <workItem from="1749717884191" duration="1177000" />
+      <workItem from="1749719072348" duration="133000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Move$td.coverage" NAME="td 覆盖结果" MODIFIED="1749718367723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/Move$main.coverage" NAME="main 覆盖结果" MODIFIED="1733399969741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Move$setup.coverage" NAME="setup 覆盖结果" MODIFIED="1734234401446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qinglong/pyd" />
+    <SUITE FILE_PATH="coverage/Move$DataProcessing__2_.coverage" NAME="DataProcessing (2) 覆盖结果" MODIFIED="1734262943790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qinglong/pyd/dist" />
+    <SUITE FILE_PATH="coverage/Move$Scramble.coverage" NAME="Scramble 覆盖结果" MODIFIED="1734263816978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dist/src" />
+    <SUITE FILE_PATH="coverage/Move$test.coverage" NAME="test 覆盖结果" MODIFIED="1734234393395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qinglong/test" />
+    <SUITE FILE_PATH="coverage/Move$DataProcessing.coverage" NAME="DataProcessing 覆盖结果" MODIFIED="1734263811201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dist/src" />
+    <SUITE FILE_PATH="coverage/Move$DataProcessing__1_.coverage" NAME="DataProcessing (1) 覆盖结果" MODIFIED="1736391199145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qinglong/pyd/src" />
+    <SUITE FILE_PATH="coverage/Move$Scramble__1_.coverage" NAME="Scramble (1) 覆盖结果" MODIFIED="1734264350772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qinglong/pyd/src" />
+    <SUITE FILE_PATH="coverage/Move$DataProcessing__3_.coverage" NAME="DataProcessing (3) 覆盖结果" MODIFIED="1734263590616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/Move$sign.coverage" NAME="sign 覆盖结果" MODIFIED="1737079878438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qinglong/pyd/src" />
+  </component>
+</project>
